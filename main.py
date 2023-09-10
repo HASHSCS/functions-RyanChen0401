@@ -16,7 +16,7 @@ def reverse_string(s):
     # Implement your solution here
     reverse=""
     for i in range(len(s)-1,-1,-1):
-        reverse+=i
+        reverse+=s[i]
     return reverse
 
 def is_prime(n):
